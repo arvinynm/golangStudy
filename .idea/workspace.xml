@@ -14,7 +14,7 @@
       <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cgss/ipc/server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="414">
               <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="e#13#47#0" expanded="true" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="ipc_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cgss/ipc/ipc_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="351">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="e#13#41#0" expanded="true" />
               </folding>
@@ -38,7 +38,7 @@
       <file leaf-file-name="client.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cgss/ipc/client.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="450">
               <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
@@ -47,7 +47,7 @@
       <file leaf-file-name="encode.go" pinned="false" current-in-tab="false">
         <entry file="file://C:/Go/src/encoding/json/encode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="2574">
               <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
             </state>
           </provider>
@@ -128,33 +128,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="firstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="golangStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golangStudy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="firstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="golangStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golangStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cgss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cgss" type="462c0819:PsiDirectoryNode" />
-              <item name="cg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cgss" type="462c0819:PsiDirectoryNode" />
-              <item name="ipc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,8 +150,8 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -191,15 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestIpc in cgss/ipc">
-    <configuration name="go build FileTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="firstProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/main/FileTest.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.ipc_test.go">
     <configuration name="go build test2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="firstProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -235,20 +207,29 @@
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestIpc$" />
     </configuration>
+    <configuration name="ipc_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="firstProject" />
+      <working_directory value="$PROJECT_DIR$/src/cgss/ipc" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/cgss/ipc/ipc_test.go" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build FileTest.go" />
       <item itemvalue="Go Build.go build test.go" />
       <item itemvalue="Go Build.go build test2.go" />
       <item itemvalue="Go Build.go build test3.go" />
       <item itemvalue="Go Test.TestIpc in cgss/ipc" />
+      <item itemvalue="Go Test.ipc_test.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.ipc_test.go" />
         <item itemvalue="Go Test.TestIpc in cgss/ipc" />
         <item itemvalue="Go Build.go build test3.go" />
         <item itemvalue="Go Build.go build test2.go" />
         <item itemvalue="Go Build.go build test.go" />
-        <item itemvalue="Go Build.go build FileTest.go" />
       </list>
     </recent_temporary>
   </component>
@@ -259,9 +240,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26541555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26876676" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32996634" />
       <window_info anchor="right" id="Database" order="3" />
@@ -286,6 +266,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/goc2p" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -549,11 +534,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/goc2p/src/helper/ds/showds.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-694" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/goc2p/src/helper/ds/showds.go" />
     <entry file="file://$PROJECT_DIR$/src/main/pipeData.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -612,21 +593,21 @@
     </entry>
     <entry file="file://C:/Go/src/encoding/json/encode.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="2574">
           <caret line="158" column="5" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cgss/ipc/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="450">
           <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cgss/ipc/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="414">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="e#13#47#0" expanded="true" />
@@ -636,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cgss/ipc/ipc_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="351">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
             <element signature="e#13#41#0" expanded="true" />
           </folding>
