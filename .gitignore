@@ -1,2 +1,7 @@
 #dependencies
 /src/github.com
+
+#idea config
+.idea
+
+bin
