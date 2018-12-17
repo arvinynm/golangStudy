@@ -5,6 +5,10 @@ import (
 	"encoding/json"
 
 	"github.com/astaxie/beego"
+	"os"
+	"fmt"
+	"encoding/csv"
+	"io"
 )
 
 // Operations about Users
@@ -28,10 +32,41 @@ func (u *UserController) Post() {
 
 // @Title GetAll
 // @Description get all Users
-// @Success 200 {object} models.User
+// @Success 200 {object} []models.Human
 // @router / [get]
 func (u *UserController) GetAll() {
-	users := models.GetAllUsers()
+
+	file, err := os.Open("d:\\demo3.csv")
+	if err != nil {
+		fmt.Printf("Error: %v", err)
+		return
+	}
+	defer file.Close()
+
+	records := [][]string{}
+
+	reader := csv.NewReader(file)
+	for {
+		record, err := reader.Read()
+		if err == io.EOF {
+			break
+		} else if err != nil {
+			fmt.Println("Error:", err)
+			return
+		}
+		records = append(records, record)
+		fmt.Println(record[1]) // record has the type []string
+	}
+	fmt.Println(records)
+
+	users := make([]models.Human, len(records)-1)
+	fmt.Println(len(records))
+	for i:=1; i<len(records); i++{
+		fmt.Println(i)
+		users[i-1].Name = records[i][0]
+		users[i-1].Age = records[i][1]
+	}
+
 	u.Data["json"] = users
 	u.ServeJSON()
 }
